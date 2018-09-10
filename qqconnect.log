@@ -1,0 +1,114 @@
+5935 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'suggestDAO'
+5935 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'suggestDAO'
+5935 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'suggestDAO' to allow for resolving potential circular references
+5935 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'sqlSessionFactory'
+5937 DEBUG [2018-08-20 00:03:26]  Invoking afterPropertiesSet() on bean with name 'suggestDAO'
+5937 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5938 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'suggestDAO'
+5939 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5939 DEBUG [2018-08-20 00:03:26]  Processing injected element of bean 'studentService': AutowiredFieldElement for private org.springframework.jdbc.datasource.DataSourceTransactionManager cn.worldyao.apply.service.impl.StudentServiceImpl.transactionManager
+5941 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'transactionManager'
+5941 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'transactionManager'
+5947 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'transactionManager' to allow for resolving potential circular references
+5952 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'dataSource'
+5952 DEBUG [2018-08-20 00:03:26]  Invoking afterPropertiesSet() on bean with name 'transactionManager'
+5952 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5952 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'transactionManager'
+5953 DEBUG [2018-08-20 00:03:26]  Autowiring by type from bean name 'studentService' to bean named 'transactionManager'
+5953 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5958 DEBUG [2018-08-20 00:03:26]  Adding transactional method 'cn.worldyao.apply.service.impl.StudentServiceImpl.alterStudentInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+5963 DEBUG [2018-08-20 00:03:26]  Creating implicit proxy for bean 'studentService' with 0 common interceptors and 1 specific interceptors
+5964 DEBUG [2018-08-20 00:03:26]  Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.worldyao.apply.service.impl.StudentServiceImpl@77825085]
+5967 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'studentService'
+5967 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'userService'
+5967 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'userService'
+5968 DEBUG [2018-08-20 00:03:26]  Registered injected element on class [cn.worldyao.apply.service.impl.UserServiceImpl]: ResourceElement for private cn.worldyao.apply.dao.UserDAO cn.worldyao.apply.service.impl.UserServiceImpl.userDAO
+5968 DEBUG [2018-08-20 00:03:26]  Registered injected element on class [cn.worldyao.apply.service.impl.UserServiceImpl]: ResourceElement for private cn.worldyao.apply.dao.StudentDAO cn.worldyao.apply.service.impl.UserServiceImpl.studentDAO
+5968 DEBUG [2018-08-20 00:03:26]  Registered injected element on class [cn.worldyao.apply.service.impl.UserServiceImpl]: AutowiredFieldElement for private org.springframework.jdbc.datasource.DataSourceTransactionManager cn.worldyao.apply.service.impl.UserServiceImpl.transactionManager
+5968 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'userService' to allow for resolving potential circular references
+5969 DEBUG [2018-08-20 00:03:26]  Processing injected element of bean 'userService': ResourceElement for private cn.worldyao.apply.dao.UserDAO cn.worldyao.apply.service.impl.UserServiceImpl.userDAO
+5970 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'userDAO'
+5971 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'userDAO'
+5971 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'userDAO' to allow for resolving potential circular references
+5971 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'sqlSessionFactory'
+5971 DEBUG [2018-08-20 00:03:26]  Invoking afterPropertiesSet() on bean with name 'userDAO'
+5971 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5971 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'userDAO'
+5973 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5975 DEBUG [2018-08-20 00:03:26]  Processing injected element of bean 'userService': ResourceElement for private cn.worldyao.apply.dao.StudentDAO cn.worldyao.apply.service.impl.UserServiceImpl.studentDAO
+5975 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'studentDAO'
+5975 DEBUG [2018-08-20 00:03:26]  Processing injected element of bean 'userService': AutowiredFieldElement for private org.springframework.jdbc.datasource.DataSourceTransactionManager cn.worldyao.apply.service.impl.UserServiceImpl.transactionManager
+5975 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'transactionManager'
+5975 DEBUG [2018-08-20 00:03:26]  Autowiring by type from bean name 'userService' to bean named 'transactionManager'
+5975 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5977 DEBUG [2018-08-20 00:03:26]  Adding transactional method 'cn.worldyao.apply.service.impl.UserServiceImpl.connectionInfo' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+5977 DEBUG [2018-08-20 00:03:26]  Creating implicit proxy for bean 'userService' with 0 common interceptors and 1 specific interceptors
+5977 DEBUG [2018-08-20 00:03:26]  Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [cn.worldyao.apply.service.impl.UserServiceImpl@6e950bcf]
+5980 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'userService'
+5980 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+5980 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+5980 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+5980 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+5980 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+5981 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+5981 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+5982 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+5984 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5984 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+5984 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+5984 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+5984 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+5986 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5987 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+5987 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+5987 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'dataSource'
+5987 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'sqlSessionFactory'
+5987 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.mybatis.spring.mapper.MapperScannerConfigurer#0'
+5987 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'transactionManager'
+5987 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+5987 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+5987 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory' to allow for resolving potential circular references
+5988 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5988 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+5988 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+5988 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+5988 DEBUG [2018-08-20 00:03:26]  Creating shared instance of singleton bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+5988 DEBUG [2018-08-20 00:03:26]  Creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+5989 DEBUG [2018-08-20 00:03:26]  Eagerly caching bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0' to allow for resolving potential circular references
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+5993 DEBUG [2018-08-20 00:03:26]  Invoking afterPropertiesSet() on bean with name 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+5993 DEBUG [2018-08-20 00:03:26]  Finished creating instance of bean 'org.springframework.transaction.interceptor.TransactionInterceptor#0'
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'adminDAO'
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'exerciseDAO'
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'reportDAO'
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'studentDAO'
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'suggestDAO'
+5993 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'userDAO'
+5994 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+5994 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+6045 DEBUG [2018-08-20 00:03:26]  Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@8dbfffb]
+6045 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'lifecycleProcessor'
+6047 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'sqlSessionFactory'
+6081 DEBUG [2018-08-20 00:03:26]  Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+6085 DEBUG [2018-08-20 00:03:26]  Storing ApplicationContext in cache under key [[MergedContextConfiguration@5383967b testClass = TestCoreServiceImpl, locations = '{classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]]
+6086 DEBUG [2018-08-20 00:03:26]  Spring test ApplicationContext cache statistics: [DefaultContextCache@2a448449 size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+6091 DEBUG [2018-08-20 00:03:26]  Processing injected element of bean 'cn.worldyao.apply.service.impl.TestCoreServiceImpl': ResourceElement for private cn.worldyao.apply.service.impl.CoreServiceImpl cn.worldyao.apply.service.impl.TestCoreServiceImpl.coreService
+6092 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'coreService'
+6092 DEBUG [2018-08-20 00:03:26]  Returning cached instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+6100 DEBUG [2018-08-20 00:03:26]  Before test method: context [DefaultTestContext@4fe3c938 testClass = TestCoreServiceImpl, testInstance = cn.worldyao.apply.service.impl.TestCoreServiceImpl@3108bc, testMethod = writeToExcel@TestCoreServiceImpl, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5383967b testClass = TestCoreServiceImpl, locations = '{classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+6190 DEBUG [2018-08-20 00:03:26]  Fetching JDBC Connection from DataSource
+7312 DEBUG [2018-08-20 00:03:27]  Returning JDBC Connection to DataSource
+291777 DEBUG [2018-08-20 00:08:12]  After test method: context [DefaultTestContext@4fe3c938 testClass = TestCoreServiceImpl, testInstance = cn.worldyao.apply.service.impl.TestCoreServiceImpl@3108bc, testMethod = writeToExcel@TestCoreServiceImpl, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5383967b testClass = TestCoreServiceImpl, locations = '{classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null].
+291846 DEBUG [2018-08-20 00:08:12]  After test class: context [DefaultTestContext@4fe3c938 testClass = TestCoreServiceImpl, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@5383967b testClass = TestCoreServiceImpl, locations = '{classpath:spring-mybatis.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+291883 INFO  [2018-08-20 00:08:12]  Closing org.springframework.context.support.GenericApplicationContext@32709393: startup date [Mon Aug 20 00:03:22 CST 2018]; root of context hierarchy
+291906 DEBUG [2018-08-20 00:08:12]  Returning cached instance of singleton bean 'sqlSessionFactory'
+291908 DEBUG [2018-08-20 00:08:12]  Returning cached instance of singleton bean 'lifecycleProcessor'
+291910 DEBUG [2018-08-20 00:08:12]  Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@78dd667e: defining beans [adminService,coreService,exerciseService,reportService,studentService,userService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.transaction.config.internalTransactionalEventListenerFactory,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0,org.springframework.transaction.interceptor.TransactionInterceptor#0,org.springframework.transaction.config.internalTransactionAdvisor,adminDAO,exerciseDAO,reportDAO,studentDAO,suggestDAO,userDAO]; root of factory hierarchy
+291910 DEBUG [2018-08-20 00:08:12]  Retrieved dependent beans for bean 'sqlSessionFactory': [adminDAO, reportDAO, studentDAO, exerciseDAO, suggestDAO, userDAO]
+291910 DEBUG [2018-08-20 00:08:12]  Retrieved dependent beans for bean 'adminDAO': [adminService]
+291910 DEBUG [2018-08-20 00:08:12]  Retrieved dependent beans for bean 'reportDAO': [reportService, coreService]
+291910 DEBUG [2018-08-20 00:08:12]  Retrieved dependent beans for bean 'reportService': [studentService]
+291910 DEBUG [2018-08-20 00:08:12]  Retrieved dependent beans for bean 'coreService': [cn.worldyao.apply.service.impl.TestCoreServiceImpl]
+291910 DEBUG [2018-08-20 00:08:12]  Retrieved dependent beans for bean 'studentDAO': [userService]
+291911 DEBUG [2018-08-20 00:08:12]  Retrieved dependent beans for bean 'exerciseDAO': [exerciseService]
